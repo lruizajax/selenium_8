@@ -37,6 +37,7 @@ public class MultiBrowser {
 	@Test
 	public void google() throws InterruptedException {
 		driver.get("https://www.google.com.pe/");
+		driver.manage().window().maximize();
 		Thread.sleep(3000);
 
 	}
